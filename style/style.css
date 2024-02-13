@@ -16,6 +16,11 @@
     padding: 20px 25px;
     cursor: pointer;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: rgb(19, 19, 19);
+}
 
 header{
     background: rgba(255, 144, 14, 0.1);
@@ -26,11 +31,7 @@ nav {
     justify-content: space-between;
     align-items:center ;
 }
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: rgb(19, 19, 19);
-}
+
 nav > ul{
     display: flex;
 }
@@ -103,7 +104,7 @@ nav li a{
      nav , .teams-container{
         flex-direction: column;
     }
-    .teams-img-container{
+    .teams-img-container{ 
         grid-template-columns: 1fr;
     }
     .teams-content{
