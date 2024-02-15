@@ -190,7 +190,6 @@ nav li a{
 }
 .footer-section p{
     font-size:2rem;
-    width: 400;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
@@ -202,19 +201,19 @@ nav li a{
 /* mobile device */
 
   @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 20px;
         font-size: 10px;
+
     }
     .banner-title{
         font-size: 20px;
     }
       nav, 
-      .features,
+     .features,
      .teams-container,
      .facts-card-container,
-     .sponsors-img-container,
-     .footer-section 
+     .sponsors-img-container
      {
         flex-direction: column;
     }
@@ -236,6 +235,9 @@ nav li a{
      .facts-card-container {
         gap: 20px;
      }
+     .footer-section p{
+        font-size: 15px;
+     }
 }
 /* tablet device */
 
@@ -249,5 +251,8 @@ nav li a{
     .sponsors-img-container {
        flex-direction: column; 
     }
+    .footer-section p{
+        font-size: 15px;
+     }
     
 }
