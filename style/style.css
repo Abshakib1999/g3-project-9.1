@@ -182,7 +182,22 @@ nav li a{
 .sponsors-img-container img{
     width: 165px ;
 }
+.footer-section{
+    height: 90px;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
 
+}
+.footer-section p{
+    font-size:2rem;
+    width: 400;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+
+
+}
 
 /* mobile device */
 
@@ -198,7 +213,8 @@ nav li a{
       .features,
      .teams-container,
      .facts-card-container,
-     .sponsors-img-container
+     .sponsors-img-container,
+     .footer-section 
      {
         flex-direction: column;
     }
